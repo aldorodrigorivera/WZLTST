@@ -14,6 +14,6 @@ app.use(bodyParser.json());
 app.use('/', main)
 
 // PUT SPECIAL ATTENTION AT THE FOLLOWING LINE 🤓
-app.listen(port,() => {
+app.listen(() => {
     console.log(` ▶︎ App running at port::${port} 💻 `)
 })
